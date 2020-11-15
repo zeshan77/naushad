@@ -1,0 +1,15 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.my-gallery {
+    @apply flex items-center justify-center flex-wrap
+}
+
+.my-gallery figure {
+    @apply px-3 mb-8
+}
+
+.my-gallery figure img {
+    @apply rounded-md
+}
